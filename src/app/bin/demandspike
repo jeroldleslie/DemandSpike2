@@ -23,5 +23,5 @@ function runShell {
   $JAVACMD -Djava.ext.dirs=$APP_DIR/libs $APP_OPT $MAIN_CLASS "$@"
 }
 
-echo "runShell $@"
+#echo "$@"
 runShell $@
